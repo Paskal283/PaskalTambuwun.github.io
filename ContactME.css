@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    background-color: #283655;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for navigation bar */
+.container-navbar {
+    background-color: #1E1F26;
+    overflow: hidden;
+}
+
+.ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.li-navbar {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.a-navbar {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.a-navbar:hover {
+    color: #D0E1F9;
+    transition: .6s ease-in-out;
+  }
+
+/* Style for content section */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.box {
+    display: inline-block;
+    margin: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 18px;
+    color: white;
+}
+
+.text p {
+    font-size: 16px;
+    color: white
+}
+
+/* Style for background image */
+.IMGpjgn {
+    background-image: url('pict/1320758.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set height to full viewport height */
+}
+
+

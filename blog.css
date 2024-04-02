@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation bar styles */
+  .container-navbar {
+    background-color: #1E1F26;
+    padding: 10px 0;
+  }
+  
+  .ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .li-navbar {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .a-navbar {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .a-navbar:hover{
+    color: #D0E1F9;
+    transition: .6s ease-in-out;
+  }
+  
+  /* Header styles */
+  header {
+    min-height: 100vh;
+    background-color: #283655;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 36px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  #blog-posts h2 {
+    font-size: 24px;
+    color: white;
+  }
+
+  article {
+    margin-bottom: 40px;
+  }
+  
+  article h3 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  article p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+  }
+  
